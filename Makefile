@@ -4,8 +4,8 @@ LDFLAGS = -lncurses
 RM = rm -f                    
 
 all: 
-	${CC} betris.cpp -o betris ${LDFLAGS}
+	${CC} ntetris.cpp -o ntetris ${LDFLAGS}
 
 clean:
-	${RM} betris
+	${RM} ntetris
 
